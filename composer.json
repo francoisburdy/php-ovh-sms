@@ -1,5 +1,5 @@
 {
-    "name": "ovh/php-ovh-sms",
+    "name": "francoisburdy/php-ovh-sms",
     "description": "SDK for OVH SMS APIs",
     "license": "BSD-3-Clause",
     "require": {

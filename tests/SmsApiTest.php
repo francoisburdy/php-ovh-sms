@@ -115,24 +115,6 @@ class SmsApiTest extends TestCase
 
     return $property;
   }
-//
-//  /**
-//   * Test missing $application_key
-//   */
-//  public function testMissingApplicationKey()
-//  {
-//    $this->expectException('\\Ovh\\Exceptions\\InvalidParameterException', 'Application key');
-//    new SmsApi(null, $this->application_secret, $this->endpoint, $this->consumer_key, $this->client);
-//  }
-//
-//  /**
-//   * Test missing $application_secret
-//   */
-//  public function testMissingApplicationSecret()
-//  {
-//    $this->expectException('\\Ovh\\Exceptions\\InvalidParameterException', 'Application secret');
-//    new SmsApi($this->application_key, null, $this->endpoint, $this->consumer_key, $this->client);
-//  }
 
   /**
    * Test missing $api_endpoint
