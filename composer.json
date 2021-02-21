@@ -3,7 +3,7 @@
     "description": "SDK for OVH SMS APIs",
     "license": "BSD-3-Clause",
     "require": {
-        "ovh/ovh": "~2.0.1"
+        "ovh/ovh": "^3.0.0"
     },
     "autoload": {
         "psr-0": {"Ovh\\Sms\\": "src/"},
