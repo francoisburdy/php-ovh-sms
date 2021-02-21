@@ -1,5 +1,6 @@
 # PHP OVH SMS
 
+Forked from [ovh/php-ovh-sms](https://github.com/ovh/php-ovh-sms) with Guzzle 7 support
 Send SMS directly from your code using OVH SMS offer.
 
 ```php
@@ -32,7 +33,7 @@ this file, create it at the root of your project with this content:
     "name": "Example Application",
     "description": "This is an example of OVH SMS APIs SDK usage",
     "require": {
-        "ovh/php-ovh-sms": "dev-master"
+        "francoisburdy/php-ovh-sms": "dev-master"
     }
 }
 
@@ -42,7 +43,7 @@ Then, you can install OVH SMS APIs SDK and dependencies with:
 
     php composer.phar install
 
-This will install ``ovh/php-ovh-sms`` to ``./vendor``, along with other dependencies
+This will install ``francoisburdy/php-ovh-sms`` to ``./vendor``, along with other dependencies
 including ``autoload.php``.
 
 Configure
