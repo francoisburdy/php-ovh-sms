@@ -1,6 +1,7 @@
 # PHP OVH SMS
 
-Forked from [ovh/php-ovh-sms](https://github.com/ovh/php-ovh-sms) with Guzzle 7 support
+Forked from [ovh/php-ovh-sms](https://github.com/ovh/php-ovh-sms) with Guzzle 7 support.
+
 Send SMS directly from your code using OVH SMS offer.
 
 ```php
